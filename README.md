@@ -28,7 +28,7 @@ We need a webpage that can pull images, and allow the user to “like” and “
 1. Search results should come from NASA’s free APIs, for which you’ll need a free API key from [https://api.nasa.gov](https://api.nasa.gov)
 2. Each image result should list at least a title, date of capture (ideally in earth_date) and a button to “like” that image.
 3. Each image can be “liked”, and a user should be able to undo their “like”
-4. The HTML that ends up being served client-side should be accessible and semantic [https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML](MDN reference)
+4. The HTML that ends up being served client-side should be accessible and semantic [MDN reference](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
 
 ## Extras
 1. Save likes if the user leaves or reloads the page
