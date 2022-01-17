@@ -1,13 +1,13 @@
-<center>
+<div align='center'>
   <h1>Spacestagram</h1>
 <img src='./metadata/ss.png' alt='' />
 Image-sharing from the final frontier
-  </center>
  
  <a href='https://spacestagram-abhay.netlify.app/'>View Live Deploy</a> 
  <p>Made this under Shopify Challange</p>
  Created with 
  <br/>React | TailwindCSS | NasaAPI | Axois
+  </div>
  
  ## Run this Web app on your local Machime 
  1. Download and Extract or Clone ```git clone https://github.com/abhaygupta08/spacestagram/``` this repository to your Local Machine.
