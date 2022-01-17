@@ -1,6 +1,6 @@
 <div align='center'>
   <h1>Spacestagram</h1>
-<img src='./metadata/ss.png' alt='' />
+<img src='ss.png' alt='' />
 Image-sharing from the final frontier
  
  <a href='https://spacestagram-abhay.netlify.app/'>View Live Deploy</a> 
