@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+<center>
+  <h1>Spacestagram</h1>
+<img src='./metadata/ss.png' alt='' />
+Image-sharing from the final frontier
+  </center>
+ 
+ <a href='https://spacestagram-abhay.netlify.app/'>View Live Deploy</a> 
+ <p>Made this under Shopify Challange</p>
+ Created with 
+ <br/>React | TailwindCSS | NasaAPI | Axois
+ 
+ ## Run this Web app on your local Machime 
+ 1. Download and Extract or Clone ```git clone https://github.com/abhaygupta08/spacestagram/``` this repository to your Local Machine.
+ 2. Go to the folder.
+ 3. Run ```npm i``` to install all the dependencies.
+ 4. Run ```npm start``` to start this project.
+ 5. Play with code 🧐
+ 
+ 
+## The Challenge
+We need a webpage that can pull images, and allow the user to “like” and “unlike” their favourite images.
+1. We'd like a simple to use interface that makes it easy to:
+2. Fetch data from one of NASA’s APIs and display the resulting images (more details under Technical Requirements)
+3. Display descriptive data for each image (for example: title, date, description, etc.)
+4. Like an image
+5. Unlike an image
+## Technical requirements
+1. Search results should come from NASA’s free APIs, for which you’ll need a free API key from [https://api.nasa.gov](https://api.nasa.gov)
+2. Each image result should list at least a title, date of capture (ideally in earth_date) and a button to “like” that image.
+3. Each image can be “liked”, and a user should be able to undo their “like”
+4. The HTML that ends up being served client-side should be accessible and semantic [https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML](MDN reference)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Extras
+1. Save likes if the user leaves or reloads the page
+2. Add a loading state while we wait for NASA’s API to return data
+3. Create shareable links for each image
